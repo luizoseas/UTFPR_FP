@@ -3,9 +3,9 @@
 
 int main() {
     // Write C code here
-    char sexo;
-    printf("Escolha seu SEXO: M ou F\n");
-    scanf("%c",&sexo);
-    printf("\nSeu sexo é: %c",sexo);
+    char caracter;
+    printf("Digite um caracter:");
+    scanf("%c",&caracter);
+    printf("\nCódigo ASCII do caracter %c é %d",caracter,caracter);
     return 0;
 }
